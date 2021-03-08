@@ -1,0 +1,157 @@
+/**** GENERAL RESET ****/
+
+:root{
+    --Darkcyan: #19a2ae;
+    --Verydarkdesaturatedblue: #2d3248;
+    --Darkgrayishblue: #6a6f81;
+}
+
+html{
+    font-size: 62.5%;       /*** 1rem ==> 10px ***/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/**** END OF GENERAL RESET ****/
+
+
+/**** BACKGROUND LAYOUT ****/
+
+body{
+    line-height: 1.5;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.8rem;
+    background-color: var(--Darkcyan);
+    background-image: url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
+    background-position: left 45vw top 55vh, right 55vw bottom 30vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/**** END OF BACKGROUND LAYOUT ****/
+
+
+.content{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/**** GENERAL STYLING CARD ****/
+
+.card{
+    height: 35rem;
+    width: 35rem;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.226);
+    z-index: 1;
+ }
+ 
+ /**** END OF GENERAL STYLING CARD ****/
+ 
+ 
+ /**** STYLING CARD TOP ****/
+ 
+ .card-top{
+     height: 14rem;
+     background-image: url(images/bg-pattern-card.svg);
+     background-size: cover;
+     overflow: hidden;
+     border-top-left-radius: 2rem;
+     border-top-right-radius: 2rem;
+ }
+ 
+ /**** END OF STYLING CARD TOP ****/
+ 
+ 
+ /**** STYLING CARD MIDDLE ****/
+ 
+ .card-middle{
+     height: 12rem;
+     border-bottom: .1rem solid #c0c0c0f3;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .image{
+     border-radius: 50%;
+     border: .6rem solid white;
+     margin-top: -8rem;
+     margin-left: 2rem;
+ }
+ 
+ 
+ .name{
+     font-weight: 700;
+     color: var(--Verydarkdesaturatedblue);
+     margin-right: 1rem;
+ }
+ 
+ .age{
+     color: var(--Darkgrayishblue);
+ }
+ 
+ .city{
+     font-size: 1.5rem;
+     color: var(--Darkgrayishblue);
+ }
+ 
+ /**** END OF STYLING CARD MIDDLE ****/
+ 
+ /**** STYLING CARD BOTTOM ****/
+ 
+ .card-bottom{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 2rem;
+ }
+ 
+ .subscription{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .numbers{
+     font-size: 1.8rem;
+     font-weight: 700;
+     color: var(--Verydarkdesaturatedblue);
+ }
+ 
+ .activities{
+     font-size: 1.2rem;
+     color: var(--Darkgrayishblue);
+     letter-spacing: 1px;
+ }
+ 
+ /**** END OF STYLING CARD BOTTOM ****/
+
+ .attribution {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: var(--Darkgrayishblue);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.author {
+    position: relative;
+    justify-content: center;
+    align-items: baseline;
+    text-decoration: none;
+    text-transform: none;
+}

@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Profile card component</title>
 
@@ -15,21 +18,57 @@
   </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  <div class="content">
 
-  80K
-  Followers
+    <div class="card">
+      <div class="card-top">&nbsp;</div>
 
-  803K
-  Likes
+      <div class="card-middle">
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Matias Lemoine</a>.
-  </div>
+        <div class="profile">
+          <img src="images/image-victor.jpg" alt="Victor" class="image">
+          <div class="identity">
+            <span class="name">Victor Crest</span>
+            <span class="age">26</span>
+          </div>
+        </div>
+
+        <span class="city">London</span>
+
+      </div>
+
+      <div class="card-bottom">
+        
+        <div class="social">
+          <div class="subscription">
+            <span class="numbers">80K</span>
+            <span class="activities">Followers</span>
+          </div>
+        </div>
+
+        <div class="social">
+          <div class="subscription">
+            <span class="numbers">803K</span>
+            <span class="activities">Likes</span>
+          </div>
+        </div>
+
+        <div class="social">
+          <div class="subscription">
+            <span class="numbers">1.4K</span>
+            <span class="activities">Photos</span>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+
+    <div class="author">
+      Coded by <a href="https://github.com/matiasLemoine" target="blank">Matias Lemoine</a>.
+    </div>
+
+  </div> 
+  
 </body>
 </html>

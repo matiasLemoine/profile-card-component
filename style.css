@@ -147,11 +147,3 @@ body{
     text-decoration: none;
     margin-top: 40px;
 }
-
-.author {
-    position: relative;
-    justify-content: center;
-    align-items: baseline;
-    text-decoration: none;
-    text-transform: none;
-}
